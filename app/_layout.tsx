@@ -6,7 +6,6 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
         <Stack screenOptions={{ headerShown: false }}>
-
         </Stack>
       </SafeAreaView>
     </SafeAreaProvider>
