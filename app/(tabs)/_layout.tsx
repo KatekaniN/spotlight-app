@@ -5,7 +5,7 @@ import { COLORS } from "../../styles/theme";
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ tabBarShowLabel: false, headerShown: false }}>
+    <Tabs screenOptions={{ tabBarShowLabel: false, headerShown: false, tabBarActiveTintColor: COLORS.primary, tabBarInactiveTintColor: COLORS.grey }}>
       <Tabs.Screen
         name="index"
         options={{
