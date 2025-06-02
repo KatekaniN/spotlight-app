@@ -1,5 +1,5 @@
-import { Text, View } from "react-native";
 import { Link } from "expo-router";
+import { View } from "react-native";
 import { styles } from "../../styles/styles";
 
 export default function Index() {

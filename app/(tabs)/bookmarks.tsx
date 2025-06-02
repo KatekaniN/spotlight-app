@@ -1,9 +1,10 @@
-import { View, Text } from "react-native";
 import React from "react";
+import { Text, View } from "react-native";
+import { styles } from "../../styles/styles";
 
 export default function Bookmarks() {
   return (
-    <View>
+    <View style={styles.container} >
       <Text>Bookmarks</Text>
     </View>
   );
