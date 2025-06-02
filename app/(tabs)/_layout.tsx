@@ -5,7 +5,21 @@ import { COLORS } from "../../styles/theme";
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ tabBarShowLabel: false, headerShown: false, tabBarActiveTintColor: COLORS.primary, tabBarInactiveTintColor: COLORS.grey }}>
+    <Tabs screenOptions={{
+      tabBarShowLabel: false, headerShown: false, tabBarActiveTintColor: COLORS.primary, tabBarInactiveTintColor: COLORS.grey, tabBarStyle: {
+        backgroundColor: COLORS.surfaceLight,
+        borderTopColor: COLORS.surface,
+        borderTopWidth: 1,
+        height: 40,
+        paddingBottom: 5,
+        paddingTop: 5,
+        elevation: 0,
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        right: 0,
+      }
+    }}>
       <Tabs.Screen
         name="index"
         options={{
