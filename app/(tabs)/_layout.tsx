@@ -1,12 +1,11 @@
-import { View, Text } from "react-native";
-import { COLORS } from "../../styles/theme";
 import { Ionicons } from "@expo/vector-icons";
-import React from "react";
 import { Tabs } from "expo-router";
+import React from "react";
+import { COLORS } from "../../styles/theme";
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ tabBarShowLabel: false }}>
+    <Tabs screenOptions={{ tabBarShowLabel: false, tabBarActiveBackgroundColor: COLORS.primary, tabBarInactiveBackgroundColor: COLORS.grey }}>
       <Tabs.Screen
         name="index"
         options={{
